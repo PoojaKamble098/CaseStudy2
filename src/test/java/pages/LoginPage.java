@@ -7,6 +7,9 @@ import org.openqa.selenium.support.PageFactory;
 
 public class LoginPage {
 	
+	WebDriver driver;
+	
+	
 	@FindBy (linkText = "Login")
 	WebElement lnkLogin;
 	

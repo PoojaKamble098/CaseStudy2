@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-04T11:58:23 IST" name="Default suite" finished-at="2026-03-04T11:58:58 IST" duration-ms="35090">
+  <suite started-at="2026-03-05T12:50:26 IST" name="Default suite" finished-at="2026-03-05T12:51:04 IST" duration-ms="37966">
     <groups>
     </groups>
-    <test started-at="2026-03-04T11:58:23 IST" name="Default test" finished-at="2026-03-04T11:58:58 IST" duration-ms="35090">
+    <test started-at="2026-03-05T12:50:26 IST" name="Default test" finished-at="2026-03-05T12:51:04 IST" duration-ms="37966">
       <class name="testScripts.ArticleTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testScripts.ArticleTest@34123d65]" started-at="2026-03-04T11:58:23 IST" name="setup" finished-at="2026-03-04T11:58:30 IST" duration-ms="6875" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testScripts.ArticleTest@34123d65]" started-at="2026-03-05T12:50:26 IST" name="setup" finished-at="2026-03-05T12:50:35 IST" duration-ms="9060" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTest()[pri:1, instance:testScripts.ArticleTest@34123d65]" started-at="2026-03-04T11:58:30 IST" name="loginTest" finished-at="2026-03-04T11:58:51 IST" duration-ms="21129" status="FAIL">
+        <test-method signature="loginTest()[pri:1, instance:testScripts.ArticleTest@34123d65]" started-at="2026-03-05T12:50:35 IST" name="loginTest" finished-at="2026-03-05T12:50:56 IST" duration-ms="21316" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.getClass()" because "exceptionDriver" is null]]>
@@ -56,19 +56,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method signature="createArticleTest()[pri:2, instance:testScripts.ArticleTest@34123d65]" started-at="2026-03-04T11:58:51 IST" name="createArticleTest" finished-at="2026-03-04T11:58:53 IST" duration-ms="2468" status="PASS">
+        <test-method signature="createArticleTest()[pri:2, instance:testScripts.ArticleTest@34123d65]" started-at="2026-03-05T12:50:56 IST" name="createArticleTest" finished-at="2026-03-05T12:50:59 IST" duration-ms="2495" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createArticleTest -->
-        <test-method signature="editArticleTest()[pri:3, instance:testScripts.ArticleTest@34123d65]" started-at="2026-03-04T11:58:53 IST" name="editArticleTest" finished-at="2026-03-04T11:58:56 IST" duration-ms="2310" status="PASS">
+        <test-method signature="editArticleTest()[pri:3, instance:testScripts.ArticleTest@34123d65]" started-at="2026-03-05T12:50:59 IST" name="editArticleTest" finished-at="2026-03-05T12:51:01 IST" duration-ms="2288" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- editArticleTest -->
-        <test-method signature="deleteArticleTest()[pri:4, instance:testScripts.ArticleTest@34123d65]" started-at="2026-03-04T11:58:56 IST" name="deleteArticleTest" finished-at="2026-03-04T11:58:57 IST" duration-ms="1022" status="PASS">
+        <test-method signature="deleteArticleTest()[pri:4, instance:testScripts.ArticleTest@34123d65]" started-at="2026-03-05T12:51:01 IST" name="deleteArticleTest" finished-at="2026-03-05T12:51:02 IST" duration-ms="991" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteArticleTest -->
-        <test-method is-config="true" signature="closeApp()[pri:0, instance:testScripts.ArticleTest@34123d65]" started-at="2026-03-04T11:58:57 IST" name="closeApp" finished-at="2026-03-04T11:58:58 IST" duration-ms="1089" status="PASS">
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testScripts.ArticleTest@34123d65]" started-at="2026-03-05T12:51:02 IST" name="closeApp" finished-at="2026-03-05T12:51:04 IST" duration-ms="1609" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->
