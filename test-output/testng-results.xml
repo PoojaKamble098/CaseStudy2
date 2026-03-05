@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-04T11:58:23 IST" name="Default suite" finished-at="2026-03-04T11:58:58 IST" duration-ms="35090">
+    <groups>
+    </groups>
+    <test started-at="2026-03-04T11:58:23 IST" name="Default test" finished-at="2026-03-04T11:58:58 IST" duration-ms="35090">
+      <class name="testScripts.ArticleTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testScripts.ArticleTest@34123d65]" started-at="2026-03-04T11:58:23 IST" name="setup" finished-at="2026-03-04T11:58:30 IST" duration-ms="6875" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest()[pri:1, instance:testScripts.ArticleTest@34123d65]" started-at="2026-03-04T11:58:30 IST" name="loginTest" finished-at="2026-03-04T11:58:51 IST" duration-ms="21129" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.getClass()" because "exceptionDriver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.getClass()" because "exceptionDriver" is null
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at pages.CreateUpdateArticlePage.Loginconfirmation(CreateUpdateArticlePage.java:87)
+at testScripts.ArticleTest.loginTest(ArticleTest.java:41)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="createArticleTest()[pri:2, instance:testScripts.ArticleTest@34123d65]" started-at="2026-03-04T11:58:51 IST" name="createArticleTest" finished-at="2026-03-04T11:58:53 IST" duration-ms="2468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createArticleTest -->
+        <test-method signature="editArticleTest()[pri:3, instance:testScripts.ArticleTest@34123d65]" started-at="2026-03-04T11:58:53 IST" name="editArticleTest" finished-at="2026-03-04T11:58:56 IST" duration-ms="2310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editArticleTest -->
+        <test-method signature="deleteArticleTest()[pri:4, instance:testScripts.ArticleTest@34123d65]" started-at="2026-03-04T11:58:56 IST" name="deleteArticleTest" finished-at="2026-03-04T11:58:57 IST" duration-ms="1022" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteArticleTest -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testScripts.ArticleTest@34123d65]" started-at="2026-03-04T11:58:57 IST" name="closeApp" finished-at="2026-03-04T11:58:58 IST" duration-ms="1089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testScripts.ArticleTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
