@@ -24,6 +24,7 @@ WebDriverWait wait;
 	
 	@BeforeClass
 	
+	
 	public void setup() {
 		BasePage.initDriver();
 		driver = BasePage.getdriver();
